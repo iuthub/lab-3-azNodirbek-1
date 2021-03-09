@@ -1,13 +1,12 @@
-.body{
+#body{
   border: 10px solid white;
   background-color: white;
   margin: 0 10%;
-  
 }
 body{
   background-image: url("images/Untitled.png");
 }
-.body .headers{
+#body .headers{
   /* border: 5px solid red; */
   text-align: right;
   background-color: #A8F0F0;
@@ -20,13 +19,23 @@ span{
   border-bottom: 2px dashed blue;
   
 }
-.body .content{
+#body .content{
   border: 4px solid #C2E9E9;
   background-color: #E8FBFB;
   padding: 5px;
   margin-top: 10px;
-  overflow: hidden;
+  columns: 2;
 }
 img{
   float: right;
+}
+#sidebar{
+  float: left;
+  border: 5px solid #1da7a7;
+  padding: 10px;
+  margin: 10px; 
+  background-color: #80ecec; 
+}
+#body *:hover{
+  border: 5px solid yellow;
 }
